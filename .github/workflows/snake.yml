@@ -1,6 +1,12 @@
 name: Generate contribution snake
 
 on:
+  # Run once when this workflow is first installed or updated on main.
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
   schedule:
     - cron: "18 3 * * *"
   workflow_dispatch:
