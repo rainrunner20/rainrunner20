@@ -53,14 +53,55 @@ verified NYC flood events.
 
 Repository: https://github.com/rainrunner20/flood-prediction-nyc-
 
+### NYC OpenData Reprojector — Geospatial data utility
+
+Implemented an Express/Python file-processing workflow that appends New York
+State Plane (EPSG:2263) projected coordinates to WGS84 CSV and XLSX tables.
+Hardened uploads with 10 MB limits, isolated temp paths, and tested numerical
+round-trip accuracy alongside HTTP upload/download and TypeScript builds.
+This is a local utility, not an officially deployed NYC DOT product.
+
+Repository: https://github.com/rainrunner20/NYC-DOT-OpenData-Coordinate-Reprojector
+
+### VAIcation — AI travel-planning prototype
+
+Developed and maintained a React/Vite interface for entering destination,
+duration, traveler count and budget. Added reliable input and itinerary JSON
+validation, error/empty states and automated build tests. The app requires
+user-owned Firebase/Google configuration and a server-side key-safe AI
+integration before a public release.
+
+Repository: https://github.com/rainrunner20/VAIcation
+
+### DiaBeat — Educational ML classification project
+
+Created a reproducible holdout evaluation for a public diabetes dataset,
+comparing logistic regression, KNN and random forest against a majority-class
+baseline. Used split-specific imputation/scaling and reported accuracy, F1,
+recall and ROC AUC. Updated the old Flask demo so no model is called 'best'
+merely because it returns the highest positive probability. Not a medical
+diagnosis or clinically validated risk score.
+
+Repository: https://github.com/rainrunner20/DiaBeat
+
+### AAWCL Banking — Educational financial simulator
+
+Maintained an Angular/Python/SQL Server coursework prototype and addressed
+high-risk legacy endpoints by removing hardcoded credentials, narrowing
+account access, and introducing a disabled-by-default transactional transfer
+sandbox. Requires database integration tests, idempotency and real credential
+rotation before any public deployment. This is not a real banking service.
+
+Repository: https://github.com/rainrunner20/AAWCL-Banking
+
 ## LinkedIn project inventory (20 entries)
 
 | Listed project | GitHub repository or verification status |
 | --- | --- |
 | IceBrAIker | Verified: rainrunner20/IceBrAIker |
-| NYC OpenData Reprojector | Code exists: rainrunner20/NYC-DOT-OpenData-Coordinate-Reprojector; needs independent build/deployment test |
-| VacAItion | Code exists: rainrunner20/VAIcation; no CI verified in audit |
-| AAWCL Banking | Code exists: rainrunner20/AAWCL-Banking; **LinkedIn JavaFX/SQLite description conflicts with Angular/Python repo** |
+| NYC OpenData Reprojector | CI verified: rainrunner20/NYC-DOT-OpenData-Coordinate-Reprojector; deployment not verified |
+| VacAItion | CI verified: rainrunner20/VAIcation; Google/Firebase provider setup pending |
+| AAWCL Banking | Code and security CI verified: rainrunner20/AAWCL-Banking; **LinkedIn JavaFX/SQLite description conflicts with Angular/Python/SQL Server source** |
 | AutoDriveAI | No exact repository match verified |
 | LibraryMart | No exact repository match verified; do not assume Book-inventory-API is the same project |
 | ProcessPilot | Verified: rainrunner20/Process-Pilot |
@@ -74,7 +115,7 @@ Repository: https://github.com/rainrunner20/flood-prediction-nyc-
 | Cardfia | No exact repository match verified; Mafia-III-Card-App may be related |
 | SnapMap | Existing code: rainrunner20/SnapMap; verify current branch/entrypoint |
 | DataSnake | No exact repository match verified |
-| DiaBeat | Existing model/backend code: rainrunner20/DiaBeat; verification pending |
+| DiaBeat | CI verified: rainrunner20/DiaBeat; research-only holdout, no clinical validity |
 | Advanced Rocket Dynamics Simulator | No exact repository match verified |
 | AeroC++ | No exact repository match verified |
 
