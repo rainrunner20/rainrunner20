@@ -37,6 +37,8 @@ I prefer projects that can be inspected and reproduced, not just a demo screensh
 
 | Project | What it does | Current evidence |
 | :--- | :--- | :--- |
+| [**Vision Zero Insights**](https://github.com/rainrunner20/vision-zero-insights) | NYC crash-data research API with an experimental severity prototype. | [Security & CI fixes](https://github.com/rainrunner20/vision-zero-insights/pull/1); credential rotation and live verification pending |
+| [**Cyber Defense Lab**](https://github.com/rainrunner20/Cyber-Defense-Lab) | Isolated JWT-authenticated event training dashboard with synthetic records. | [API tests and Vite build](https://github.com/rainrunner20/Cyber-Defense-Lab/pull/1); local demo, not a live SIEM |
 | [**3D Portfolio**](https://github.com/rainrunner20/3D-Robert-Portfolio) | Interactive React/Three.js portfolio with real engineering projects and accessible source links. | [Vite build workflow](https://github.com/rainrunner20/3D-Robert-Portfolio/actions); source verified on default `test1` branch, hosted release pending |
 | [**Process-Pilot**](https://github.com/rainrunner20/Process-Pilot) | Compares FCFS and Round Robin CPU scheduling with deterministic process metrics. | [Automated scheduler tests](https://github.com/rainrunner20/Process-Pilot/actions), request validation and a web UI |
 | [**TweetInsights**](https://github.com/rainrunner20/TweetInsights) | Finds emerging hashtags in exported social posts and renders a standalone visual report. | [Python tests + demo workflow](https://github.com/rainrunner20/TweetInsights/actions); synthetic dataset clearly labeled |
