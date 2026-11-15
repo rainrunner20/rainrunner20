@@ -6,6 +6,14 @@ private keys or credentials into chat, commit messages or README files.
 
 ## Immediate: rotate exposed credentials
 
+### Newly identified: Vision Zero Insights credentials
+
+- [ ] URGENT: Rotate the publicly exposed PostgreSQL DATABASE_URL password and verify the old account cannot connect.
+- [ ] Replace all formerly committed ADMIN_TOKEN values, invalidate old access, and keep admin tokens out of frontend bundles.
+- [ ] Restrict or reissue the hardcoded Mapbox token if it is still valid.
+- [ ] Review database and hosting access logs, forks, clones and repository snapshots; current-file deletion does not erase history.
+
+
 - [ ] **Book-inventory-API:** rotate the PostgreSQL password that existed in
   a previously committed .env file. Audit database connections and reduce privileges.
 - [ ] **AAWCL Banking:** rotate Azure SQL credentials and the JWT signing
@@ -55,3 +63,8 @@ Passing unit tests does not prove a production deployment is running.
 Do not call a tool production-ready unless the actual hosted URL works,
 critical flows and access controls have been tested, and secrets are secure.
 Do not claim measured performance improvements without reproducible data.
+
+## Local portfolio demos and deployment
+
+- [ ] 3D Portfolio: check the default test1 branch and 3D asset licenses. For Vercel, use root my-portfolio and production branch test1, then verify the live URL before advertising it.
+- [ ] Cyber Defense Lab: generate a new local JWT_SECRET_KEY and use SQLite or disposable local Docker Postgres; do not expose demo servers publicly.
