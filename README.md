@@ -33,12 +33,19 @@ Previously, I've worked on **AI evaluation at Snorkel AI**, **geospatial and dat
 
 ### 🚀 Selected projects
 
-| Project | Overview |
-| :--- | :--- |
-| [**IceBrAIker**](https://github.com/rainrunner20/IceBrAIker) | An AI-powered networking project using retrieval and NLP to help identify relevant connections. |
-| [**Nature's Call**](https://github.com/rainrunner20/Natures-Call) | A location-based app for finding and reviewing public facilities. |
-| [**Cyclistics**](https://github.com/rainrunner20/Cyclistics-CSC-754-Final-Project) | A smart-city simulation project exploring how bike-lane obstructions affect cyclist movement. |
-| [**NYC DOT Innovation Pilots**](https://github.com/rainrunner20/NYC-dot-innovation-pilots) | Mapping and visualizing urban transportation pilot programs. |
+I prefer projects that can be inspected and reproduced, not just a demo screenshot.
+
+| Project | What it does | Current evidence |
+| :--- | :--- | :--- |
+| [**Process-Pilot**](https://github.com/rainrunner20/Process-Pilot) | Compares FCFS and Round Robin CPU scheduling with deterministic process metrics. | [Automated scheduler tests](https://github.com/rainrunner20/Process-Pilot/actions), request validation and a web UI |
+| [**TweetInsights**](https://github.com/rainrunner20/TweetInsights) | Finds emerging hashtags in exported social posts and renders a standalone visual report. | [Python tests + demo workflow](https://github.com/rainrunner20/TweetInsights/actions); synthetic dataset clearly labeled |
+| [**IceBrAIker**](https://github.com/rainrunner20/IceBrAIker) | Helps brainstorm first-conversation questions with a React interface and Flask API. | [API tests + Next.js build](https://github.com/rainrunner20/IceBrAIker/actions); offline fictional demo |
+| [**Nature's Call**](https://github.com/rainrunner20/Natures-Call) | Team-built NYC bathroom finder with maps, reviews and account features. | Existing full-stack source plus recent [authorization fixes](https://github.com/rainrunner20/Natures-Call/pull/1) |
+| [**Sensor Forecasting**](https://github.com/rainrunner20/flood-prediction-nyc-) | Evaluates five-minute sensor predictions against a persistence baseline. | [Reproducible holdout + CI](https://github.com/rainrunner20/flood-prediction-nyc-/actions); not a validated flood-alert system |
+| [**Cyclistics**](https://github.com/rainrunner20/Cyclistics-CSC-754-Final-Project) | Research project exploring cyclist behavior around bike-lane obstructions. | Ongoing modeling and simulation work |
+| [**NYC DOT Innovation Pilots**](https://github.com/rainrunner20/NYC-dot-innovation-pilots) | Interactive geospatial view of transportation pilot programs. | ArcGIS JavaScript source and documented GIS work |
+
+The repositories distinguish implemented features from future work. Live services, third-party AI integrations and real-world prediction performance are only claimed when tested.
 
 ### 📊 GitHub activity
 
